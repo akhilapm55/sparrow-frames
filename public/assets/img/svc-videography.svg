@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675" role="img" aria-label="VIDEOGRAPHY">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#4a3d36"/><stop offset="1" stop-color="#7a6455"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="675" fill="url(#g)"/>
+  <g transform="translate(450.0 317.25)" fill="none" stroke="#f8f4ef" stroke-opacity="0.5" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="-36" y="-22" width="46" height="44" rx="5"/><path d="M10 -6 l26 -14 v40 l-26 -14 z"/>
+  </g>
+  <text x="450.0" y="447.25" text-anchor="middle" fill="#f8f4ef" fill-opacity="0.5"
+        font-family="Overpass, system-ui, sans-serif" font-size="21" letter-spacing="2.2">VIDEOGRAPHY</text>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" role="img" aria-label="REPLACE / HERO IMAGE">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#3a2f2a"/><stop offset="1" stop-color="#5d4a40"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#g)"/>
+  <g transform="translate(960.0 507.6)" fill="none" stroke="#f8f4ef" stroke-opacity="0.5" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="-34" y="-24" width="68" height="48" rx="6"/><circle cx="0" cy="0" r="14"/><path d="M-20 -24 l6 -9 h28 l6 9"/>
+  </g>
+  <text x="960.0" y="702.4" text-anchor="middle" fill="#f8f4ef" fill-opacity="0.5"
+        font-family="Overpass, system-ui, sans-serif" font-size="45" letter-spacing="2.2">REPLACE / HERO IMAGE</text>
+</svg>

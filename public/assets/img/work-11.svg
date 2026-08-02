@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1250" viewBox="0 0 1000 1250" role="img" aria-label="WORK 11 / PRODUCT">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0.4" y2="1">
+      <stop offset="0" stop-color="#332b27"/><stop offset="1" stop-color="#544641"/>
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="1250" fill="url(#g)"/>
+  <g transform="translate(500.0 587.5)" fill="none" stroke="#4f4f4f" stroke-opacity="0.38" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round">
+    <rect x="-32" y="-32" width="64" height="64" rx="3"/><rect x="-22" y="-22" width="44" height="44" rx="2"/>
+  </g>
+  <text x="500.0" y="809.5" text-anchor="middle" fill="#4f4f4f" fill-opacity="0.38"
+        font-family="Overpass, system-ui, sans-serif" font-size="23" letter-spacing="2.2">WORK 11 / PRODUCT</text>
+</svg>
