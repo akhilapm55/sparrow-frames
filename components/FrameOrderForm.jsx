@@ -33,9 +33,14 @@ function widthsFor(size) {
   return FRAME_WIDTHS.filter((w) => frameRate(size, w));
 }
 
-export default function FrameOrderForm() {
-  const [size, setSize] = useState(FRAME_RATES[3].size); // 12 × 8, the common one
-  const [width, setWidth] = useState("0.75 inch");
+export default function FrameOrderForm({
+  // Set when the form is opened from a specific piece in the size guide, so it
+  // arrives on the size that was clicked.
+  initialSize = FRAME_RATES[3].size, // 12 × 8, the common one
+  initialWidth = "0.75 inch",
+}) {
+  const [size, setSize] = useState(initialSize);
+  const [width, setWidth] = useState(initialWidth);
   const [qty, setQty] = useState(1);
   // idle → sending → sent, or failed when the order could not be recorded.
   const [state, setState] = useState("idle");
