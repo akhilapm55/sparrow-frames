@@ -1419,6 +1419,21 @@ body.modal-open { overflow: hidden; }
 
   .grid--2, .grid--3, .grid--4 { grid-template-columns: 1fr; }
   .frame-sizes { grid-template-columns: repeat(2, 1fr); gap: 20px; }
+  /* Top padding stays clear of the fixed header, which is ~100px tall (20px
+     block padding either side of the 60px logo). */
+  .khero {
+    min-height: 64svh;
+    padding-block: 128px 68px;
+    border-bottom-left-radius: 36px;
+    border-bottom-right-radius: 36px;
+  }
+  .khero--compact {
+    padding-block: 128px 76px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  .khero__cta { margin-top: 26px; }
+
   .modal { padding: 14px; }
   .modal__panel { padding: 30px 22px; }
   .modal__head { gap: 14px; margin-bottom: 24px; }
@@ -1431,6 +1446,22 @@ body.modal-open { overflow: hidden; }
   /* No room to keep the silhouette clear — even scrim, full-width copy. */
   .parallax__inner { max-width: none; margin-left: 0; }
   .parallax__scrim { background: rgba(31, 46, 36, 0.74); }
+
+  /* A full-viewport hero costs a whole screen of scrolling on a phone, and
+     these heroes carry little more than a headline. Shrink the floor and the
+     padding so the page below starts within reach. */
+  .khero {
+    min-height: 72svh;
+    padding-block: 136px 78px;
+    border-bottom-left-radius: 54px;
+    border-bottom-right-radius: 54px;
+  }
+  .khero--compact {
+    padding-block: 136px 86px;
+    border-bottom-left-radius: 44px;
+    border-bottom-right-radius: 44px;
+  }
+  .khero__lede { margin-top: 20px; }
 
   .hero { min-height: 88svh; padding-block: 140px 70px; }
   .hero__stats { gap: 28px 40px; margin-top: 46px; }
